@@ -1,6 +1,6 @@
 --[[
 This is a snippet of code from a module in my game Ragdoll WT: Remastered.
-It creates an explosion that can damage, ragdoll, and destroy limbs of other players.
+It is a function that creates an explosion that can damage, ragdoll, and destroy limbs of other players.
 You can test it out in game by using an explosive throwable on the dummy.
 --]]
 
@@ -178,3 +178,4 @@ function SM:CreateExplosion(position, power, owner, ownerItem, immunePlayer) --V
 		Smoke:Emit(power * SMOKE_EMIT_MULTIPLIER)
 	end)
 end
+--If there is anything else that needs explaining, please let me know!
